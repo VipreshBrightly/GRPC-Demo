@@ -1,6 +1,6 @@
 package org.acme.Entity;
 
-public class Book
+public class BookEntity
 {
     int bookId;
     String title;
@@ -8,8 +8,8 @@ public class Book
     int pages;
     int authorId;
 
-    public Book(){}
-    public Book(int bookId, String title, float price, int pages, int authorId) {
+    public BookEntity(){}
+    public BookEntity(int bookId, String title, float price, int pages, int authorId) {
         this.bookId = bookId;
         this.title = title;
         this.price = price;
